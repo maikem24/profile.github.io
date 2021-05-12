@@ -1,0 +1,196 @@
+/*Tag Selectors*/
+body {
+  color: #545454;
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+}
+
+p {
+  font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  align-items: center;
+}
+
+ul {
+  padding-left: 30%;
+  padding-right: 30%;
+
+  text-align: left;
+  list-style-type: disc;
+  list-style-type: none;
+}
+
+/*Class Selectors*/
+/*---TOPSECTION---*/
+.topsection {
+  padding-bottom: 50px;
+  background-color: #dbf6e9;
+}
+
+.topcontainer {
+  padding-top: 60px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.title {
+  font-family: monospace;
+  padding-bottom: 50px;
+}
+
+.intern {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.quotepadding {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.quote::before {
+  content: open-quote;
+  font-size: 50px;
+  vertical-align: -10px;
+}
+
+.quote::after {
+  content: close-quote;
+  font-size: 50px;
+  vertical-align: -40px;
+}
+
+.confucius {
+  display: inline;
+  font-size: 20px;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+/*---IMAGES_TOPSECTION---*/
+.avatarpic {
+  width: 90px;
+  padding-bottom: 20px;
+}
+
+.birds {
+  position: relative;
+  top: -220px;
+  left: 205px;
+  width: 45px;
+}
+
+.mountain {
+  position: relative;
+  right: 30px;
+  top: 20px;
+}
+
+/*MIDDLESECTION*/
+.middlesection {
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.education {
+  padding-top: 20px;
+}
+
+.tables {
+  padding-left: 20%;
+  padding-right: 20%;
+  position:inherit;
+}
+
+.cvstation {
+  color: #28b5b5;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.companies {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #28b5b5;
+}
+.listitems {
+  padding-left: 70px;
+
+}
+.listitems::before {
+  content: "+ ";
+  font-weight: bolder;
+  font-size: 20px;
+  color: #28b5b5;
+}
+.enactus{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.intern_area {
+  margin-bottom: 0;
+  text-align:left;
+}
+
+.skilltable {
+  margin: 0 auto;
+}
+
+.skillsections {
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 150px;
+}
+
+/*---IMAGES_MIDDLESECTION---*/
+.div-images {
+  height: 50px;
+}
+
+/*BOTTOMSECTION*/
+.bottomsection {
+  background-color: #dbf6e9;
+  padding-top: 20px;
+}
+
+.getintouch {
+  padding-top: 20px;
+}
+
+.btn {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 40px;
+  text-decoration: none;
+  color: #28b5b5;
+}
+
+.copywright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.linkedin-link {
+  padding-right: 15px;
+}
+
+.facebook-link {
+  padding-left: 5px;
+}
+
+/*IMAGES_BOTTOMSECTION*/
+.logos {
+  height: 40px;
+}
