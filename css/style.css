@@ -56,28 +56,6 @@ ul {
   margin-bottom: 40px;
 }
 
-.quotepadding {
-  margin: 0;
-  padding-top: 30px;
-}
-
-.quote::before {
-  content: open-quote;
-  font-size: 50px;
-  vertical-align: -10px;
-}
-
-.quote::after {
-  content: close-quote;
-  font-size: 50px;
-  vertical-align: -40px;
-}
-
-.confucius {
-  display: inline;
-  font-size: 20px;
-  font-family: 'Reenie Beanie', cursive;
-}
 
 /*---IMAGES_TOPSECTION---*/
 .avatarpic {
