@@ -15,7 +15,7 @@ p {
   font-family: 'Lexend', sans-serif;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
 }
 
 a {
@@ -37,7 +37,7 @@ h2 {
 h3 {
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 45px;
+  padding-top: 15px;
 }
 
 ul {
@@ -129,12 +129,16 @@ button:hover {
 
 /*MIDDLESECTION*/
 
-.container1, .container2 {
+.container1, .container2, .container3 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-basis: 50%;
   background-color: #545454;
+}
+
+div.container3 {
+  background-color: #dbf6e9;
 }
 
 .container1-item:nth-of-type(1), .container2-item:nth-of-type(2) {
@@ -150,7 +154,7 @@ button:hover {
   box-sizing: border-box;
 }
 
-.container1-item, .container2-item {
+.container1-item, .container2-item, .container-left, .container-right {
   display: flex;
   justify-content: center;
   align-items: flex;
@@ -159,12 +163,26 @@ button:hover {
   box-sizing: border-box;
 }
 
-.p-cv {
-  background-color: #26DBB8;
+.p-cv, .p-portfolio {
+  background-color: #dbf6e9;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: aliceblue;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #26DBB8;
+  font-weight: normal;
+}
+
+
+
+.p-portfolio {
+  border-left: 3px solid #26DBB8;
+}
+
+.portfolio {
+  color: #545454;
+  
 }
 
 .middlesection {
